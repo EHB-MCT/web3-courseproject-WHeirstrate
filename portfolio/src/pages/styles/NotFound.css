@@ -1,0 +1,13 @@
+.notFoundContainer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notFoundTitle {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 80px;
+  margin-bottom: 5%;
+}
