@@ -38,29 +38,112 @@
   ],
   "skills": [
     {
+      "name": "Programmeertalen",
+      "type": "title"
+    },
+    {
       "name": "HTML5",
       "percentage": 80,
-      "icon": "hmtl"
+      "type": "element"
     },
     {
       "name": "Javascript",
       "percentage": 80,
-      "icon": "js"
+      "type": "element"
     },
     {
       "name": "TypeScript",
       "percentage": 60,
-      "icon": "ts"
+      "type": "element"
     },
     {
       "name": "CSS3",
       "percentage": 85,
-      "icon": "css"
+      "type": "element"
     },
     {
       "name": "Java",
+      "percentage": 25,
+      "type": "element"
+    },
+    {
+      "name": "Applicaties",
+      "type": "title"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "percentage": 40,
+      "type": "element"
+    },
+    {
+      "name": "Adobe Photoshop",
       "percentage": 30,
-      "icon": "java"
+      "type": "element"
+    },
+    {
+      "name": "Adobe XD",
+      "percentage": 80,
+      "type": "element"
+    },
+    {
+      "name": "Frameworks",
+      "type": "title"
+    },
+    {
+      "name": "React",
+      "percentage": 75,
+      "type": "element"
+    },
+    {
+      "name": "Angular",
+      "percentage": 75,
+      "type": "element"
+    },
+    {
+      "name": "Laravel",
+      "percentage": 60,
+      "type": "element"
+    },
+    {
+      "name": "Services",
+      "type": "title"
+    },
+    {
+      "name": "Node/NPM",
+      "type": "element"
+    },
+    {
+      "name": "Github",
+      "type": "element"
+    },
+    {
+      "name": "Docker",
+      "percentage": 60,
+      "type": "element"
+    },
+    {
+      "name": "Postman",
+      "type": "element"
+    },
+    {
+      "name": "Overige technologiën",
+      "type": "title"
+    },
+    {
+      "name": "Hosting",
+      "type": "element"
+    },
+    {
+      "name": "Design Patterns",
+      "type": "element"
+    },
+    {
+      "name": "0Auth 2.0",
+      "type": "element"
+    },
+    {
+      "name": "Design Principals",
+      "type": "element"
     }
   ]
 }

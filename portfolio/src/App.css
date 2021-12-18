@@ -29,3 +29,8 @@
   text-align: center;
   margin: 150px 0;
 }
+
+.appTitle::selection {
+  background: rgb(85, 35, 167);
+  color: #e3e3e3;
+}

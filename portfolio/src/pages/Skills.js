@@ -7,7 +7,11 @@ export default function Skills() {
   const color = "#5523A7";
 
   const template = skills.map((element) => {
-    return <Card data={element} color={color} />;
+    return element.type === "title" ? (
+      <h1 class="cardCategory">{element.name}</h1>
+    ) : (
+      <Card data={element} color={color} />
+    );
   });
 
   return (

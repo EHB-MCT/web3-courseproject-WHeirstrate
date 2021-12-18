@@ -12,9 +12,10 @@ import "./App.css";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
+  const navItems = 4;
   const navItemStyle = {
-    width: width / 3,
-    cursor: "none",
+    width: width / navItems,
+    //cursor: "none",
   };
 
   useEffect(() => {
@@ -35,14 +36,37 @@ function App() {
         </Routes>
       </div>
       <nav className="navContainer">
+        <Link style={navItemStyle} to="/">
+          <SketchComponent
+            text={"Home"}
+            width={width / navItems}
+            height={80}
+            position="odd"
+          />
+        </Link>
         <Link style={navItemStyle} to="/career">
-          <SketchComponent text={"Career"} width={width / 3} height={80} />
+          <SketchComponent
+            text={"Carière"}
+            width={width / navItems}
+            height={80}
+            position="even"
+          />
         </Link>
         <Link style={navItemStyle} to="/skills">
-          <SketchComponent text={"Skills"} width={width / 3} height={80} />
+          <SketchComponent
+            text={"Vaardigheden"}
+            width={width / navItems}
+            height={80}
+            position="odd"
+          />
         </Link>
         <Link style={navItemStyle} to="/contact">
-          <SketchComponent text={"Contact"} width={width / 3} height={80} />
+          <SketchComponent
+            text={"Contact"}
+            width={width / navItems}
+            height={80}
+            position="even"
+          />
         </Link>
       </nav>
     </Router>

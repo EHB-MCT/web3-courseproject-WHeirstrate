@@ -1,0 +1,36 @@
+.contactContainer {
+  text-align: center;
+}
+
+.contactString,
+.explanation {
+  margin-bottom: 15px;
+  font-size: 20px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.contactString {
+  margin-bottom: 40px;
+}
+
+.contactString a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  border-bottom: 2px solid #5523a7;
+  transition: 0.2s;
+}
+
+.contactString a:hover,
+.homeLink:hover {
+  padding: 0 5px 3px;
+}
+
+.homeLink {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  border-bottom: 2px solid #5523a7;
+  transition: 0.2s;
+}
