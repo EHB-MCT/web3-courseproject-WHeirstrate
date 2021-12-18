@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import Sketch from "react-p5";
 
 export default function SketchComponent({ text }) {
+  const [hover, setHover] = useState(false);
+
   const width = 150;
   const height = 75;
   const x_margin = 35;
   const y_margin = 15;
   let x_hover = 0;
   let y_hover = 0;
-  const [hover, setHover] = useState(false);
+
   const setup = (p5, canvasParentRef) => {
     const canvas = p5.createCanvas(width, height).parent(canvasParentRef);
     p5.textSize(20);
