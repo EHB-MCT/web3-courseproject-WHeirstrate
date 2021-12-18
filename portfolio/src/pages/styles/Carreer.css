@@ -1,7 +1,12 @@
 .timelineDate {
-  color: white;
+  color: black;
+}
+.appTitle {
 }
 
-.appContainer {
-  justify-content: flex-start;
+.careerTitle {
+}
+
+.timeline {
+  margin-bottom: 80px;
 }

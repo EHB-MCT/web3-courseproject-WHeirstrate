@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: flex-start;
   overflow-x: hidden;
+  background-color: #e3e3e3;
 }
 
 .navContainer {
@@ -19,4 +20,12 @@
   left: 0;
   height: 80px;
   overflow: hidden;
+}
+
+.appTitle {
+  color: rgb(85, 35, 167);
+  font-family: "Anton", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin: 150px 0;
 }

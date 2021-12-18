@@ -1,0 +1,30 @@
+.card {
+  width: 200px;
+  height: 175px;
+  margin: 15px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 15px;
+  box-shadow: 0 0 6px grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardTitle {
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: #e3e3e38c;
+  width: 100%;
+  box-shadow: 0 0 6px white;
+}
+
+.cardText {
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background-color: #e3e3e38c;
+}

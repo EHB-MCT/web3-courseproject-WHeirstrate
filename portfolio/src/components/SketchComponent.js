@@ -12,8 +12,8 @@ export default function SketchComponent({ text, width, height }) {
   const setup = (p5, canvasParentRef) => {
     const canvas = p5.createCanvas(width, height).parent(canvasParentRef);
     p5.textSize(25);
-    p5.textFont("Fuzzy Bubbles");
-    p5.fill(0);
+    p5.textFont("Anton");
+    p5.fill(255);
     p5.noLoop();
     canvas.mouseOver(() => {
       setHover(true);
@@ -26,7 +26,7 @@ export default function SketchComponent({ text, width, height }) {
   };
 
   const draw = (p5) => {
-    p5.background(149, 179, 206);
+    p5.background(85, 35, 167);
     if (hover) {
       if (
         p5.pmouseX >= x_margin &&
