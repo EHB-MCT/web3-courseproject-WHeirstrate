@@ -1,0 +1,32 @@
+{
+  "career": [
+    {
+      "date": "sep 2013 -- 12 jaar",
+      "icon": "<BsCodeSlash />",
+      "title": "Atheneum Boom",
+      "subTitle": "Boom, Antwerpen",
+      "text": "Start van mijn middelbare schoolcarrière. Latijn was mijn eerste keuze, wegens mijn interesse in talen en geschiedenis."
+    },
+    {
+      "date": "15 jaar -- februari 2016",
+      "icon": "<FaChild />",
+      "title": "Animator in het Jeugdwerk (Stage)",
+      "subTitle": "VDS, Antwerpen",
+      "text": "Na een week lang een animatorencursus gevolgd te hebben en twee weken stage te lopen bij een erkend speelplein, heb ik mijn attest behaald bij de Vlaamse Dienst Speelpleinwerken (VDS)."
+    },
+    {
+      "date": "mei 2018 -- 17 jaar",
+      "icon": "<BiFirstAid />",
+      "title": "EHBO attest",
+      "subTitle": "Boom, Antwerpen",
+      "text": "In 16 uur les in totaal heb ik mijn Eerste Hulp examen en attest gehaald op school."
+    },
+    {
+      "date": "mei 2018 -- 17 jaar",
+      "icon": "<FaChild />",
+      "title": "Hoofdanimator in het jeugdwerk",
+      "subTitle": "VDS, Antwerpen",
+      "text": "Na een week theorie en daarna een week lang alleen een speelplein leiden, heb ik het hoogst mogelijk attest behaald in het jeugdwerk. Dit heb ik behaald bij de Vlaamse Dienst Speelpleinwerken (VDS)."
+    }
+  ]
+}

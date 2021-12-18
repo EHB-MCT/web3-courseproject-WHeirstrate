@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import Sketch from "react-p5";
 
-export default function SketchComponent({ text }) {
+export default function SketchComponent({ text, width, height }) {
   const [hover, setHover] = useState(false);
 
-  const width = 150;
-  const height = 75;
   const x_margin = 35;
   const y_margin = 15;
   let x_hover = 0;
@@ -13,13 +11,12 @@ export default function SketchComponent({ text }) {
 
   const setup = (p5, canvasParentRef) => {
     const canvas = p5.createCanvas(width, height).parent(canvasParentRef);
-    p5.textSize(20);
-    p5.fill(255);
-    p5.noCursor();
+    p5.textSize(25);
+    p5.textFont("Fuzzy Bubbles");
+    p5.fill(0);
     p5.noLoop();
     canvas.mouseOver(() => {
       setHover(true);
-      console.log(p5);
       p5.loop();
     });
     canvas.mouseOut(() => {
@@ -29,7 +26,7 @@ export default function SketchComponent({ text }) {
   };
 
   const draw = (p5) => {
-    p5.background(0);
+    p5.background(149, 179, 206);
     if (hover) {
       if (
         p5.pmouseX >= x_margin &&
