@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Landing from "./pages/Landing";
+import { Link } from "react-router-dom";
+import SketchComponent from "./components/SketchComponent";
+
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Career from "./pages/Career";
 import Skills from "./pages/Skills";
 import NotFound from "./pages/NotFound";
-import { Link } from "react-router-dom";
-import SketchComponent from "./components/SketchComponent";
 
 import "./App.css";
 
@@ -15,7 +16,6 @@ function App() {
   const navItems = 4;
   const navItemStyle = {
     width: width / navItems,
-    //cursor: "none",
   };
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function App() {
     <Router>
       <div className="appContainer">
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/skills" element={<Skills />} />

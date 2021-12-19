@@ -14,7 +14,6 @@
 .navContainer {
   width: 100%;
   display: flex;
-  background-color: rgb(149, 179, 206);
   position: absolute;
   bottom: 0;
   left: 0;

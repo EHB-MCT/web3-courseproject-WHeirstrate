@@ -9,11 +9,15 @@ export default function Contact() {
       <div className="contactContainer">
         <p className="contactString">
           Je kan me steeds bereiken op mijn{" "}
-          <a href="mailto:wouter.heirstrate@student.ehb.be" target="_blank">
+          <a
+            rel="noreferrer"
+            href="mailto:wouter.heirstrate@student.ehb.be"
+            target="_blank"
+          >
             email
           </a>{" "}
           of op mijn{" "}
-          <a href="tel:0032487482911" target="_blank">
+          <a rel="noreferrer" href="tel:0032487482911" target="_blank">
             gsm
           </a>
           .
