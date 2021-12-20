@@ -1,4 +1,5 @@
 # Portfolio Wouter Heirstrate
+Web3, het keuze-clustervak in mijn laatste jaar Multimedia en Creatieve Technologie. Als finale opdracht heb ik een portfolio over mezelf gemaakt, om dan "later" echt te kunnen gaan gebruiken. Mocht je geïnteresseerd zijn in wat ik nog zoal heb gemaakt in dit vak, kijk dan zeker eens rond in deze repo.
 
 ## Sources
 
