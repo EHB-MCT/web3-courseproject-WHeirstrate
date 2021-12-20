@@ -7,15 +7,15 @@ export default function Card({ data, color }) {
       <h1 className="cardTitle">{data.name}</h1>
       {data.percentage ? (
         <>
-          <p class="progressLabel">{data.percentage}%</p>
           <div
             className="progressBar"
             style={{
               background: `linear-gradient(90deg, ${color} ${
                 data.percentage - 5
-              }%, #e3e3e3 ${data.percentage}%)`,
+              }%, #b599e5 ${data.percentage}% )`,
             }}
           />
+          <p class="progressLabel">{data.percentage}%</p>
         </>
       ) : null}
     </div>

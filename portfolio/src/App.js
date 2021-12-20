@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Projects />} />
         </Routes>
       </div>
       <nav className="navContainer">

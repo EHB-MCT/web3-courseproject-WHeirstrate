@@ -1,34 +1,70 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./styles/Contact.css";
+import profile from "../assets/profile.png";
+
+import { AiOutlinePhone } from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
+import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 
 export default function Contact() {
   return (
     <>
       <h1 className="appTitle">Get in touch!</h1>
       <div className="contactContainer">
-        <p className="contactString">
-          Je kan me steeds bereiken op mijn{" "}
-          <a
-            rel="noreferrer"
-            href="mailto:wouter.heirstrate@student.ehb.be"
-            target="_blank"
-          >
-            email
-          </a>{" "}
-          of op mijn{" "}
-          <a rel="noreferrer" href="tel:0032487482911" target="_blank">
-            gsm
-          </a>
-          .
-        </p>
-        <p className="explanation">
-          Dat is het, eigenlijk. Wil je meer over me weten, ga dan terug naar de{" "}
-          <Link className="homeLink" to="/">
-            Homepagina
-          </Link>
-          .
-        </p>
+        <img src={profile} alt="Mijn profielfoto" className="image" />
+        <div className="contactDetail">
+          <div className="contactItem">
+            <AiOutlinePhone className="contactIcon" />
+            <a className="contactLink" href="tel:00487482911">
+              0487482911
+            </a>
+          </div>
+          <div className="contactItem">
+            <HiOutlineMail className="contactIcon" />
+            <a
+              className="contactLink"
+              href="mailto:wouter.heirstrate@student.ehb.be"
+              target="_blank"
+              rel="noreferrer"
+            >
+              wouter.heirstrate@student.ehb.be
+            </a>
+          </div>
+          <div className="contactItem">
+            <HiOutlineMail className="contactIcon" />
+            <a
+              className="contactLink"
+              href="wouter.heirstrate@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              wouter.heirstrate@gmail.com
+            </a>
+          </div>
+          <div className="contactItem contactSocialsContainer">
+            <a
+              href="https://github.com/WHeirstrate"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiGithub className="contactIcon" />
+            </a>
+            <a
+              href="https://twitter.com/WHeirstrate"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiTwitter className="contactIcon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wouter-heirstrate-1a0560178/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiLinkedin className="contactIcon" />
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
