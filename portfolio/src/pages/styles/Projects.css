@@ -1,5 +1,15 @@
-.personalName {
-  color: rgb(14, 14, 117);
-  font-size: 20px;
-  margin-bottom: 40px;
+.projectsContainer {
+  width: 700px;
+  margin: 0 auto 80px;
+}
+
+.projectTitle {
+  color: #5523a7;
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.projectDescription {
+  padding-bottom: 120px;
 }

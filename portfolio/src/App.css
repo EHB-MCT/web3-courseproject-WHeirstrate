@@ -21,12 +21,31 @@
   overflow: hidden;
 }
 
+.navItem {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(85, 35, 167);
+  font-size: 20px;
+  text-decoration: none;
+  width: 25%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: ease 0.5s;
+}
+
+.navItem:hover {
+  background-color: rgb(125, 87, 185);
+}
+
 .appTitle {
   color: rgb(85, 35, 167);
   font-family: "Anton", cursive;
   font-size: 80px;
   text-align: center;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 
 .appTitle::selection {

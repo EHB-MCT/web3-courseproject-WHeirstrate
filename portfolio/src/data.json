@@ -101,7 +101,12 @@
     },
     {
       "name": "Laravel",
-      "percentage": 60,
+      "percentage": 40,
+      "type": "element"
+    },
+    {
+      "name": "React Native",
+      "percentage": 20,
       "type": "element"
     },
     {
@@ -144,6 +149,26 @@
     {
       "name": "Design Principals",
       "type": "element"
+    }
+  ],
+  "projects": [
+    {
+      "name": "EHACKBv7",
+      "image": "https://res.cloudinary.com/dcumv0gey/image/upload/v1639957107/portfolio/ehackb_wizfvf.png",
+      "github": "https://github.com/WHeirstrate/EHackBv7",
+      "description": "Voor dit project heb ik samen met twee medestudenten een website gedesignt en geprogrammeerd op een dikke week tijd."
+    },
+    {
+      "name": "PITCH:fx",
+      "image": "https://res.cloudinary.com/dcumv0gey/image/upload/v1639957107/portfolio/pitchfx_mf3hk2.png",
+      "github": "https://github.com/EHB-MCT/web3-courseproject-JoppeRabijns/tree/main/pitchFX",
+      "description": "Ik heb samen met een medestudent een aantal weken lang geëxperimenteerd met het uploaden van video's, FFMPEG en Nexrender. Ik heb me bijna uitsluitend bezig gehouden met de Frontend."
+    },
+    {
+      "name": "Trailway",
+      "image": "https://res.cloudinary.com/dcumv0gey/image/upload/v1639962639/portfolio/trailway_wvninq.png",
+      "github": "https://github.com/EHB-MCT/web2-course-project-WHeirstrate",
+      "description": "Als finaal werk voor we aan frameworks begonnen, hebben we zowel een fontend als backend moeten laten samenwerken. Trailway is mijn adaptatie hiervan."
     }
   ]
 }

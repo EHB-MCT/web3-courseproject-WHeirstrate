@@ -1,19 +1,34 @@
 import React from "react";
-import profielPicture from "../assets/profile.png";
+import Carousel from "framer-motion-carousel";
+import Image from "../components/Image";
+import { projects } from "../data.json";
+
 import "./styles/Projects.css";
 
 export default function Projects() {
-  const myAge = calculateAge();
-  console.log(myAge);
-  function calculateAge() {
-    const date = new Date();
-    if (date.getDay < 11 && date.getMonth < 9) return date.getFullYear() - 2001;
-    return date.getFullYear() - 2001 + 1;
+  function log(s) {
+    console.log(s);
   }
+
   return (
-    <div className="appContainer">
+    <div className="appContainer" style={{ overflow: "hidden" }}>
       <h1 className="appTitle">Get to know me!</h1>
-      <div className="detailsContainer"></div>
+      <div className="projectsContainer">
+        <Carousel
+          loop={true}
+          autoPlay={true}
+          interval={5000}
+          className="carousel"
+        >
+          {projects.map((item, i) => (
+            <div onClick={() => window.open(item.github, "_blank")}>
+              <Image image={item.image} item={item} />
+              <h1 className="projectTitle">{item.name}</h1>
+              <p className="projectDescription">{item.description}</p>
+            </div>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }
